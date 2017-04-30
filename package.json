@@ -7,6 +7,7 @@
     "gulp-textlint": "^2.0.1",
     "markdownlint": "^0.4.1",
     "textlint": "^7.4.0",
+    "textlint-formatter": "^1.8.0",
     "textlint-rule-common-misspellings": "^1.0.1",
     "textlint-rule-ginger": "^2.1.0",
     "textlint-rule-rousseau": "^1.4.5",
@@ -36,7 +37,6 @@
   },
   "scripts": {
     "lint": "gulp textlint",
-    "doc": "gulp doc",
     "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
     "prepush": "gulp textlint"
   },

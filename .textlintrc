@@ -1,7 +1,7 @@
 {
   "rules": {
     "rousseau": {
-      "showLevels": ["suggestion", "warning", "error"]
+      "severity" : "warning"
     },
     "ginger": true,
     "spellchecker": true,
