@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "rousseau": {
+      "showLevels": ["suggestion", "warning", "error"]
+    },
+    "ginger": true,
+    "spellchecker": true,
+    "common-misspellings": {
+      "ignore": []
+    }
+  }
+}
