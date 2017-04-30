@@ -38,7 +38,7 @@
     "lint": "gulp textlint",
     "doc": "gulp doc",
     "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
-    "prepush": "gulp lint:scripts"
+    "prepush": "gulp textlint"
   },
   "private": true,
   "repository": "https://github.com/yarres/articles.git",
